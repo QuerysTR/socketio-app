@@ -9,5 +9,5 @@ app.use(express.static(publicPath));
 
 
 app.listen(port, () =>{
-    console.log("Sunucu Aktif Port: ",port);
+    console.log("Sunucu Aktif Port: ", port);
 });
